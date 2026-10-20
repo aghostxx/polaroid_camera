@@ -256,10 +256,7 @@ const ResultPage = () => {
             <Button onClick={handleDownload} className="cursor-pointer">
               <Download className="mr-2 h-4 w-4" /> Save
             </Button>
-            {/* <Button onClick={handleShare} disabled={isUploading} className="cursor-pointer">
-              <Share2 className="mr-2 h-4 w-4" /> Share
-            </Button> */}
-            <Button onClick={() => toast.error('Share functionality is temporarily unavailable!')} className="cursor-pointer">
+            <Button onClick={handleShare} disabled={isUploading} className="cursor-pointer">
               <Share2 className="mr-2 h-4 w-4" /> Share
             </Button>
           </div>
